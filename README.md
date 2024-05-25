@@ -24,4 +24,4 @@
 - [React typewriter](https://www.npmjs.com/package/react-simple-typewriter)
 - [SweetAlert2](https://sweetalert2.github.io/#examples)
 - [React FAST Marquee](https://www.react-fast-marquee.com/)
-"# client-side-clone" 
+
