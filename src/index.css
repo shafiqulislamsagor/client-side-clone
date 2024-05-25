@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.btnColor {
+  background-color: #ad1a19;
+}
+.btnHoverColor {
+  background-color: #e48413;
+}
+
+.textLayer{
+    text-shadow:2px 2px 5px #ad1a19;
+
+}
+
+.textStyle{
+  color: #ff0;
+  text-shadow: 2px 2px 1px hsl(0, 89%, 35%);
+}
+
+.text_Yellow{
+    color: #ff0;
+}
+.bannerImg {
+  background-image: url("https://i.ibb.co/zbq9vK9/louis-hansel-K47107a-P8-UU-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.marquee-container {
+  overflow: hidden;
+}
+
+.marquee {
+  display: flex;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
